@@ -1,6 +1,6 @@
 package golang_go_say_hello
 
-func SayHello() string {
-	return "Hello Muhamad Fahmi Ganteng"
+func SayHello(name string) string {
+	return "Hello Muhamad Fahmi" + name
 
 }
